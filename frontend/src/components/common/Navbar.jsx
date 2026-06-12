@@ -58,7 +58,12 @@ export default function Navbar() {
                 </ul>
               </div>
             ) : (
-              <a href="/auth/login" className="btn btn-primary btn-sm">Sign in with Google</a>
+              <a 
+  href={`${import.meta.env.VITE_API_URL}/auth/login`}
+  className="btn btn-primary btn-sm"
+>
+  Sign in with Google
+</a>//<a href="/auth/login" className="btn btn-primary btn-sm">Sign in with Google</a>
             )}
           </div>
         </div>

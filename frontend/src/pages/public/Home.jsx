@@ -127,7 +127,7 @@ export default function Home() {
 
   const featuredNotes = notes.slice(0, 3);
 
-  const googleLoginURL = `/auth/login`;  //const googleLoginURL = `${import.meta.env.VITE_API_URL}/auth/login`;
+  const googleLoginURL = `${import.meta.env.VITE_API_URL}/auth/login`;
 
   return (
     <>

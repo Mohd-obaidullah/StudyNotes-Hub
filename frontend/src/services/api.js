@@ -43,7 +43,7 @@ api.interceptors.response.use(
       isRedirecting = true;
 
       // Google OAuth login endpoint
-      window.location.href = `/auth/login`;  //window.location.href = `${import.meta.env.VITE_API_URL}/auth/login`;
+      window.location.href = `${import.meta.env.VITE_API_URL}/auth/login`;
     }
 
     return Promise.reject(error);
