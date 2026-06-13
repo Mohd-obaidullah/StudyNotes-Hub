@@ -265,12 +265,12 @@ def callback():
                 "mail"
             )
 
-            if mail:
-                send_welcome_email(
-                    mail,
-                    user["name"],
-                    user["email"]
-                )
+            # if mail:
+            #     send_welcome_email(
+            #         mail,
+            #         user["name"],
+            #         user["email"]
+            #     )
 
         except Exception as email_error:
 
