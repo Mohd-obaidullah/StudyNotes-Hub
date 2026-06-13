@@ -168,7 +168,7 @@ export default function MyNotes() {
 
                     <div className="mt-auto">
                       <a
-                        href={`${import.meta.env.VITE_API_URL}/api/notes/${notes._id}/access`} //href={`http://localhost:5000/api/notes/${note._id}/access`}
+                        href={`${import.meta.env.VITE_API_URL}/api/notes/${note._id}/access`} //href={`http://localhost:5000/api/notes/${note._id}/access`}
                         target="_blank"
                         rel="noreferrer"
                         className="btn btn-success w-100"
